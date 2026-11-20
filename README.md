@@ -19,7 +19,11 @@ Requires Node `^22.19.0 || >=24` and DSH `>=0.2.0-rc.2 <0.3.0`.
 3. You get a compact, read-only report; use `/context-map --json` for machine-readable output.
 
 ```text
-[context-map] report — see --json for full data
+[context-map] 10 event(s) across 4 source families · ~2440 tokens reported
+  tool  5 event(s)  [compact candidate]
+  request  3 event(s)
+  error  1 event(s)
+  assistant  1 event(s)
 ```
 
 ## What it reads
